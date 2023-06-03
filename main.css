@@ -1,0 +1,17 @@
+
+html{
+    height: 100%;
+    
+    background-image: url(https://img.freepik.com/premium-photo/red-orange-maple-leaves-frame-autumn-nature-background-with-bokeh-forest_150893-2072.jpg?w=1060);
+}
+.main{
+    height: max-content;
+    
+}
+.inside-element{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
