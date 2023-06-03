@@ -118,6 +118,7 @@ html{
   
 }
 .result>p{
+    font-weight: 600;
     margin-bottom: 2px;
 }
 
@@ -133,4 +134,52 @@ html{
 }
 .BMI_status{
     margin-top: 2px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .main{
+        
+        position: relative;
+        left: auto;
+        right: inherit;
+    }
+    .inside-element{
+        height: 50%;
+        width: 80%;
+    }
+    .heding>p{
+        position: relative;
+        left: 2px;
+        top: 2px;
+        font-size: 15px;
+       
+    }
+    .container{
+        height: 10% ;
+    }
+
+
+}
+@media only screen and (min-width: 375px) {
+
+    .cal-button>button{
+        margin-bottom: 0px;
+        height: 50%;
+
+    }
+    .cal-button{
+        height: 10%;
+    }
+    
+}
+
+@media only screen and (min-width: 280px) {
+
+    .inside-element{
+        height: 70%;
+        width: 90%;
+    }
+
 }
