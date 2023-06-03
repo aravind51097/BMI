@@ -1,17 +1,136 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 html{
     height: 100%;
-    
-    background-image: url(https://img.freepik.com/premium-photo/red-orange-maple-leaves-frame-autumn-nature-background-with-bokeh-forest_150893-2072.jpg?w=1060);
+ 
+    background-image: linear-gradient(150.24deg, rgba(8, 28, 241, 0.744) 23.83%, rgba(235, 217, 21, 0.402) 96.1%),url(https://wallpapers.com/images/high/plaid-background-ny4ww58s0ayruc9l.webp);
+    font-family: 'Ubuntu', sans-serif;
 }
 .main{
     height: max-content;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
     
 }
 .inside-element{
     display: flex;
-    flex-direction: row;
+    height: 70%;
+    width: 25%;
+    border: 20px solid rgba(255, 255, 255, 0.475);
+    border-radius: 50px;
+    background-color: rgba(29, 179, 220, 0.664);
+}
+
+.container{
+   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
     align-items: center;
-    justify-content: center;
-    border: 2px solid black;
+    margin: 0px;
+}
+.heding>p{
+    font-size: x-large;
+    font-weight: bold;
+}
+.height{
+    background-color: rgba(129, 200, 230, 0.292);
+    border-radius: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+.height>p{
+    margin: 0px;
+    margin-bottom: 5%;
+}
+.height>input{
+    border-radius: none;
+    width: 80%;
+    border: none;
+    margin-bottom: 5%;
+    text-align: center;
+    border-bottom: 1px rgb(8, 0, 255) solid;
+  
+}
+
+.height>input:focus-visible{
+    width: 80%;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-bottom: 1px rgb(0, 0, 255) solid;
+
+}
+.center-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.weight{
+    background-color: rgba(185, 234, 255, 0.292);
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 20px ;
+}
+.weight>p{
+    margin: 0px;
+    margin-bottom: 5%;
+}
+
+.weight>input{
+    background-color: rgba(129, 200, 230, 0.292);
+    border-radius: 10px;
+    width: 80%;
+    border: none;
+    margin-bottom: 5%;
+    text-align: center;
+    border-bottom: 1px rgb(0, 20, 241) solid;
+  
+}
+
+.weight>input:focus-visible{
+  width: 80%;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-bottom: 1px rgb(30, 6, 241) solid;
+
+}
+.cal-button{
+    width: 100%;
+    height: 100px;
+    margin-top: 5%;
+    
+    
+}
+
+.cal-button>button{
+    width: 100%;
+    font-weight: bold;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(174, 164, 229);
+    background-color: rgba(165, 199, 239, 0.422);
+  
+}
+.result>p{
+    margin-bottom: 2px;
+}
+
+.BMI{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    background-color: rgba(127, 255, 212, 0.543);
+    font-weight: 900;
+    font-size: large;
+    
+}
+.BMI_status{
+    margin-top: 2px;
 }
