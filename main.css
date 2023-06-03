@@ -16,6 +16,7 @@ html{
     
 }
 .inside-element{
+    position: absolute;
     display: flex;
     height: 70%;
     width: 25%;
@@ -136,8 +137,77 @@ html{
     margin-top: 2px;
 }
 
+.author{
+    position: fixed;
+    right:50px ;
+    bottom: 10px;
+    font-size: x-large;
+    
 
-@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (min-width: 250px) and (max-width:860px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: auto;
+        right: inherit;
+    }
+    .inside-element{
+        height: 80%;
+        width: 80%;
+    }
+    .heding>p{
+        position: relative;
+        left: 2px;
+        top: 2px;
+        font-size: 15px;
+       
+    }
+    .container{
+
+        height: 100% ;
+    }
+    .height,.weight{
+        font-size: medium;
+        margin: 10px 0px 50px 0px;
+
+    }
+    .height>input,.weight>input{
+        font-size: 30px;
+        height: 50px;
+
+    }
+    .cal-button>button{
+        font-size: large;
+        height: 100px;
+
+}
+
+
+/* @media only screen and (max-width: 1340px) {
+    .main{
+        
+        position: relative;
+        left: auto;
+        right: inherit;
+    }
+    .inside-element{
+        height: 90%;
+        width: 30%;
+    }
+    .cal-button{
+        margin-bottom: 10px;
+        height: 20%;
+    }
+    .cal-button>button{
+        margin-bottom: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
 
     .main{
         
@@ -146,7 +216,7 @@ html{
         right: inherit;
     }
     .inside-element{
-        height: 50%;
+        height: 100%;
         width: 80%;
     }
     .heding>p{
@@ -162,24 +232,27 @@ html{
 
 
 }
-@media only screen and (min-width: 375px) {
+@media only screen and (max-width: 375px )and(min-width: 280px) {
 
     .cal-button>button{
         margin-bottom: 0px;
-        height: 50%;
+        height: 100%;
 
     }
+    .inside-element{
+        height: 100%;
+    }
     .cal-button{
-        height: 10%;
+        height: 30%;
     }
     
 }
 
-@media only screen and (min-width: 280px) {
+@media only screen and (max-width: 280px) {
 
     .inside-element{
         height: 70%;
         width: 90%;
     }
 
-}
+} */
