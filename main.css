@@ -23,6 +23,7 @@ html{
     border: 20px solid rgba(255, 255, 255, 0.475);
     border-radius: 50px;
     background-color: rgba(29, 179, 220, 0.664);
+    box-shadow: 15px -15px rgba(8, 14, 16, 0.276);
 }
 
 .container{
@@ -45,10 +46,12 @@ html{
     width: 100%;
 }
 .height>p{
+    font-weight: bold;
     margin: 0px;
     margin-bottom: 5%;
 }
 .height>input{
+    font-size: large;
     border-radius: none;
     width: 80%;
     border: none;
@@ -78,11 +81,13 @@ html{
     margin-top: 20px ;
 }
 .weight>p{
+    font-weight: bold;
     margin: 0px;
     margin-bottom: 5%;
 }
 
 .weight>input{
+    font-size: large;
     background-color: rgba(129, 200, 230, 0.292);
     border-radius: 10px;
     width: 80%;

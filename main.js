@@ -12,6 +12,11 @@ btn.addEventListener('click',function() {
         alert('please fill the proper details :) ')
         return
     }
+    if (heigth<30 || weight <2.5) {
+        alert('Kindly check the values height should be > 30cm and weight >2.5kg ')
+        return
+
+    }
     const height_in_meter=heigth/100;
     let BMI=(weight/(height_in_meter*height_in_meter))
     console.log(BMI)
